@@ -1,9 +1,12 @@
-header{
+.fieldset1{
     background-color: #0040FF;
 }
-article{
+.fieldset2{
   background-color: #BF00FF;
 }
-footer{
+.fieldset3{
   background-color:#FF0080;
+}
+.marge{
+  margin: 5%;
 }

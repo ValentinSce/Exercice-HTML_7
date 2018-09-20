@@ -7,8 +7,7 @@
 <body>
 	<form>
 		<div>
-			<header>
-				<fieldset> <legend>Votre identité </legend>
+				<fieldset class="fieldset1"> <legend class="fieldset1">Votre identité </legend>
 					<label for="Nom"> 1. Nom :</label>
 					<input type="text" id="Nom" value="nom"> <br>
 					<label for="Prénom"> 2. Prénom :</label>
@@ -18,13 +17,11 @@
 				</div>
 			</form>
 		</fieldset>
-	</header>
 	<form>
 		<div>
-			<article>
-				<fieldset> <legend>Adresse de livraison</legend>
+				<fieldset class=fieldset2> <legend class="fieldset2">Adresse de livraison</legend>
 					<label for="Adresse"> 1. Adresse :</label>
-					<input type="text" id="Adresse" value="adresse"> <br>
+					<textarea name="textarea" rows="6" cols="20">Adresse </textarea> <br>
 					<label for="postal"> 2. Code postal :</label>
 					<input type="text" id="postal" value="code postal"> <br>
 					<label for="ville"> 3. Ville :</label>
@@ -32,13 +29,11 @@
 				</div>
 			</form>
 		</fieldset>
-	</article>
 	<form>
 		<div>
-			<footer>
-				<fieldset> <legend>Information de réglement</legend>
+				<fieldset class="fieldset3"> <legend class="fieldset3">Information de réglement</legend>
 					<p>1. Type de carte bancaire</p>
-					<label> <input type="radio" name="radio1" value="radio1"> Visa <br>
+					<label class="marge"> <input type="radio" name="radio1" value="radio1"> Visa <br>
 					</label>
 					<label> <input type="radio" name="radio1" value="radio2"> Mastercard <br>
 					</label>
@@ -52,8 +47,5 @@
 			</form>
 		</fieldset>
 		<input type="submit" name="envoi" value="J'achéte !">
-	</footer>
-
-
 </body>
 </html>
