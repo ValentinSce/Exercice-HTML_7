@@ -1,12 +1,12 @@
-.fieldset1{
+#fieldset1{
     background-color: #0040FF;
 }
-.fieldset2{
+#fieldset2{
   background-color: #BF00FF;
 }
-.fieldset3{
+#fieldset3{
   background-color:#FF0080;
 }
-.marge{
+#marge{
   margin: 5%;
 }
