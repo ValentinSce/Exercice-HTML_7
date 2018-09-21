@@ -1,10 +1,10 @@
-#fieldset1{
+.fieldset1{
     background-color: #2574A9;
 }
-#fieldset2{
+.fieldset2{
   background-color: #9A12B3;
 }
-#fieldset3{
+.fieldset3{
   background-color: #DB0A5B;
 }
 #marge{
@@ -12,5 +12,5 @@
 }
 
 .decal{
-  margin-left: 1.5%;
+  margin-left: 1.3%;
 }
